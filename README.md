@@ -1,6 +1,6 @@
 # Document Question and Answering RAG APPLICATION
 
-🚀 Welcome to the Document Question and Answering (Q&A) RAG Application! This project leverages cutting-edge technologies to create an efficient Q&A system. From model inference to deployment, we've got you covered.
+🚀 Welcome to the Document Question and Answering (Q&A) RAG Application! This project leverages cutting-edge technologies to create an efficient Q&A system. From model inference to deployment, I've got you covered.
 
 ## Overview
 
@@ -8,11 +8,11 @@
 
 ## Features
 
-✨ **Continuous Integration and Deployment**: We've implemented a robust CI/CD pipeline to ensure seamless updates and deployments.
+✨ **Continuous Integration and Deployment**: I've implemented a robust CI/CD pipeline to ensure seamless updates and deployments.
 
-⚙️ **AWS Integration**: Leveraging AWS services like Bedrock, AppRunner, and ECR, we've created a scalable and reliable infrastructure for hosting our application.
+⚙️ **AWS Integration**: Leveraging AWS services like Bedrock, AppRunner, and ECR, I've created a scalable and reliable infrastructure for hosting our application.
 
-🔑 **Environment Variables**: We've securely managed our project's deployment environment variables using GitHub Actions, ensuring a smooth deployment process.
+🔑 **Environment Variables**: I've securely managed our project's deployment environment variables using GitHub Actions, ensuring a smooth deployment process.
 
 ## Technologies Used
 
@@ -34,13 +34,10 @@
 
 ## Model Inference and Embeddings
 
-🧠 **Model Inference**: We utilize meta.llama2-13b-chat-v1 for model inference, ensuring accurate responses to user queries.
+🧠 **Model Inference**: I utilize meta.llama2-13b-chat-v1 for model inference, ensuring accurate responses to user queries.
 
 🔠 **Vector Embeddings**: Leveraging amazon.titan-embed-text-v1 for generating vector embeddings, enabling efficient document representation.
 
-## Usage
-
-🔗 Clone the repository and follow the instructions in the `README.md` to set up and deploy the application in your own environment.
 
 ## Contributing
 

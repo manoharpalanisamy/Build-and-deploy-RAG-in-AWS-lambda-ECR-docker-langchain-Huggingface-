@@ -1,42 +1,51 @@
-# Document Question and Answering RAG Application
+# Document Question and Answering RAG APPLICATION
 
-Welcome to the Document Question and Answering RAG Application! This project leverages cutting-edge technologies to provide robust question-answering capabilities using a retrieval-augmented generation (RAG) model. By integrating multiple advanced tools and platforms, this application ensures efficient, scalable, and automated deployment processes.
+🚀 Welcome to the Document Question and Answering (Q&A) RAG Application! This project leverages cutting-edge technologies to create an efficient Q&A system. From model inference to deployment, we've got you covered.
 
-## Project Overview
+## Overview
 
-This repository contains the source code and deployment scripts for the Document Question and Answering RAG Application. The application is designed to retrieve and generate accurate answers from a corpus of documents, leveraging the power of machine learning and modern cloud infrastructure.
+ℹ️ This project aims to streamline the process of extracting information from documents by answering user questions using the Retrieve and Generate (RAG) approach. It harnesses the power of AWS Bedrock, AWS AppRunner, AWS ECR, Langchain, FAISS, Docker, GitHub Actions, LangSmith, and Streamlit.
 
-## Key Features
+## Features
 
-- **Advanced Question-Answering**: Utilizes state-of-the-art RAG models from Huggingface to deliver precise answers from a given document set.
-- **Scalable Deployment**: Employs AWS AppRunner and AWS Elastic Container Registry (ECR) for scalable and reliable deployment.
-- **Efficient Retrieval**: Uses FAISS for fast document retrieval to enhance the performance of the RAG model.
-- **Streamlined Development**: Integrated with Docker and GitHub Actions for seamless continuous integration, continuous delivery, and continuous deployment (CI/CD).
-- **Interactive Interface**: Built with Streamlit for an intuitive and user-friendly interface.
-- **Experiment Tracking**: Utilizes LangSmith for tracking experiments and managing model performance.
+✨ **Continuous Integration and Deployment**: We've implemented a robust CI/CD pipeline to ensure seamless updates and deployments.
+
+⚙️ **AWS Integration**: Leveraging AWS services like Bedrock, AppRunner, and ECR, we've created a scalable and reliable infrastructure for hosting our application.
+
+🔑 **Environment Variables**: We've securely managed our project's deployment environment variables using GitHub Actions, ensuring a smooth deployment process.
 
 ## Technologies Used
 
-### Cloud and Containerization
-- **AWS AppRunner**: For deploying and managing the application in a serverless manner.
-- **AWS ECR**: To store and manage Docker container images.
-- **Docker**: Ensures consistency across different development and deployment environments.
+🛠️ **AWS Bedrock**: Providing a solid foundation for our AWS infrastructure.
 
-### Machine Learning and Retrieval
-- **Langchain**: For constructing flexible and powerful language model pipelines.
-- **FAISS**: Fast, efficient similarity search and clustering of dense vectors.
-- **Huggingface**: Implements state-of-the-art RAG models for question answering.
+📦 **AWS AppRunner**: Simplifying container-based application deployment and management.
 
-### CI/CD
-- **GitHub Actions**: Automates the workflow from code commit to deployment, using environment variables for secure configuration.
+🐳 **Docker**: Containerizing our application for easy deployment and scalability.
 
-### User Interface
-- **Streamlit**: Provides a simple and interactive web interface for end-users to interact with the application.
+🤖 **Langchain**: Harnessing the power of language models for advanced natural language processing tasks.
 
-### Experimentation and Management
-- **LangSmith**: Helps in managing, tracking, and experimenting with different model versions and configurations.
+🔍 **FAISS**: Employing efficient similarity search for document retrieval.
 
-## Project Structure
+🛡️ **GitHub Actions**: Automating our CI/CD pipeline for efficient development workflows.
 
-Here's a brief overview of the project structure:
+🔗 **LangSmith**: Integrating powerful language models for inference.
 
+🌐 **Streamlit**: Creating interactive and user-friendly web applications with ease.
+
+## Model Inference and Embeddings
+
+🧠 **Model Inference**: We utilize meta.llama2-13b-chat-v1 for model inference, ensuring accurate responses to user queries.
+
+🔠 **Vector Embeddings**: Leveraging amazon.titan-embed-text-v1 for generating vector embeddings, enabling efficient document representation.
+
+## Usage
+
+🔗 Clone the repository and follow the instructions in the `README.md` to set up and deploy the application in your own environment.
+
+## Contributing
+
+🤝 Contributions are welcome! Feel free to fork the repository and submit pull requests with your enhancements.
+
+## License
+
+📄 This project is licensed under the [MIT License](LICENSE), allowing for open collaboration and use.
